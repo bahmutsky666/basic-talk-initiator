@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Basic Welcome Talk",
+  "version": "1.0.0",
+  "description": "A beautiful welcome presentation with smooth transitions and animations",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Basic Welcome Talk"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "32": "favicon.ico",
+    "48": "favicon.ico",
+    "128": "favicon.ico"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
